@@ -394,7 +394,7 @@ td {
 
 .wrap {
   margin: 0 auto;
-  max-width: 1170px
+  max-width: 100%
 }
 
 .site-inner {
@@ -1941,7 +1941,7 @@ body .soliloquy-container .soliloquy-item::before {
 
 @media only screen and (max-width: 1179px) {
   .wrap {
-      max-width:97%
+      max-width:100%
   }
 
   .title-area {
@@ -2329,7 +2329,7 @@ body .soliloquy-container .soliloquy-item::before {
 
 @media only screen and (max-width: 415px) {
   .wrap {
-      max-width:90%
+      max-width:100%
   }
 
   .title-area {
@@ -2530,4 +2530,9 @@ body .soliloquy-container .soliloquy-item::before {
     width: 30vw;
     margin: 5px;
     cursor: pointer;
+  }
+
+  #banner-bg {
+    height: auto;
+    width: 100%;
   }
