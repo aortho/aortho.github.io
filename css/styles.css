@@ -1531,7 +1531,11 @@ li.comment {
 
 .open-gallery {
   min-height: 386px;
-  text-align: center
+  text-align: center;
+  background-image: url('../img/gallery-bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
 }
 
 .open-gallery,.open-gallery h3 {
@@ -1590,9 +1594,13 @@ li.comment {
 
 .consultation {
   padding-top: 55px;
-  padding-bottom: 55px
+  padding-bottom: 55px;
+  margin: 0 50% 0 50%;
 }
 
+.consultation > #pgc-w653aa50b65d0b-2-0 {
+  margin-left: 50px;
+}
 .consultation,.consultation h3 {
   color: #fff
 }
@@ -2074,6 +2082,13 @@ body .soliloquy-container .soliloquy-item::before {
 }
 
 @media only screen and (max-width: 980px) {
+  .consultation {
+    margin: 0;
+  }
+  .consultation > #pgc-w653aa50b65d0b-2-0 {
+    margin-left: 0;
+  }
+
   .genesis-nav-menu a {
       padding:5px 10px;
       padding: .5rem 1rem
