@@ -637,6 +637,7 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
   height: 38px;
   line-height: 48px;
   margin: 0 auto;
+  margin-left: 10px;;
   background-size: cover
 }
 
@@ -702,7 +703,7 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
 }
 
 .header-btn:hover {
-  background-color: #61978d
+  background-color: #a0e5e2
 }
 
 .nav-primary {
@@ -1543,7 +1544,7 @@ li.comment {
 }
 
 .open-gallery h3 {
-  margin: 0 0 30px;
+  margin: -30PX 0 30px;
 }
 
 .open-gallery p {
@@ -1595,7 +1596,6 @@ li.comment {
 .consultation {
   padding-top: 55px;
   padding-bottom: 55px;
-  margin: 0 50% 0 50%;
 }
 
 .consultation > #pgc-w653aa50b65d0b-2-0 {

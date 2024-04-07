@@ -44,12 +44,45 @@
   <link rel='dns-prefetch' href='//fonts.googleapis.com' />
   <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
   <link data-minify="1" rel='stylesheet' href='css/styles.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='siteorigin-panels-front-css'
-    href='css/front-flex.min.css' type='text/css'
-    media='all' />
   <script type="text/javascript" src="js/jquery.min.js"
     id="jquery-core-js" defer></script>
   <link rel='shortlink' href='https://aortho.in/' />
+  <style type="text/css">
+    /* Adjusted widths for layout consistency */
+    .footer-widgets .wrap {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .consultation .panel-grid-cell {
+      margin-right: 0;
+    }
+
+    .consultation .panel-grid-cell:last-child {
+      margin-right: 0;
+    }
+
+    .consultation .panel-grid-cell:nth-child(odd) {
+      margin-right: 50px;
+    }
+
+    @media (max-width: 980px) {
+      /* Adjustments for smaller screens */
+      .footer-widgets .wrap {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+      .consultation .panel-grid-cell {
+        margin-right: 0;
+        margin-bottom: 20px; /* Adding margin bottom for spacing */
+      }
+
+      .consultation .panel-grid-cell:last-child {
+        margin-right: 0;
+      }
+    }
+  </style>
 </head>
 <body
   class="home page-template page-template-page_front page-template-page_front-php page page-id-2302 siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-visible"
@@ -85,7 +118,7 @@
                     </div>
                   </div>
                   <div id="pg-2302-1" class="panel-grid panel-has-style">
-                    <div class="home-panel-2 siteorigin-panels-stretch panel-row-style panel-row-style-for-2302-1"
+                    <div class="home-panel-2  panel-row-style panel-row-style-for-2302-1"
                       data-stretch-type="full-width-stretch">
                       <div id="pgc-2302-1-0" class="panel-grid-cell">
                         <div id="panel-2302-1-0-0"
@@ -104,7 +137,7 @@
                     </div>
                   </div>
                   <div id="pg-2302-1" class="panel-grid panel-has-style">
-                    <div class="home-panel-2 siteorigin-panels-stretch panel-row-style panel-row-style-for-2302-1"
+                    <div class="home-panel-2  panel-row-style panel-row-style-for-2302-1"
                       data-stretch-type="full-width-stretch">
                       <div id="pgc-2302-1-0" class="panel-grid-cell">
                         <div id="panel-2302-1-0-0"
@@ -171,7 +204,7 @@
                     </div>
                   </div>
                   <div id="pg-2302-3" class="panel-grid panel-has-style">
-                    <div class="home-panel-2 siteorigin-panels-stretch panel-row-style panel-row-style-for-2302-3"
+                    <div class="home-panel-2  panel-row-style panel-row-style-for-2302-3"
                       data-stretch-type="full-width-stretch">
                       <div id="pgc-2302-3-0" class="panel-grid-cell">
                         <div id="panel-2302-3-0-0"
@@ -207,7 +240,7 @@
             <div id="pl-w653aa50b65d0b" class="panel-layout">
               <div id="pg-w653aa50b65d0b-0" class="panel-grid panel-has-style">
                 <div
-                  class="open-gallery siteorigin-panels-stretch lazy rocket-lazyload panel-row-style panel-row-style-for-w653aa50b65d0b-0"
+                  class="open-gallery siteorigin-panels-stretch panel-row-style panel-row-style-for-w653aa50b65d0b-0"
                   data-stretch-type="full">
                   <div id="pgc-w653aa50b65d0b-0-0" class="panel-grid-cell">
                     <div id="panel-w653aa50b65d0b-0-0-0"
@@ -248,7 +281,7 @@
                 </div>
               </div>
               <div id="pg-w653aa50b65d0b-2" class="panel-grid panel-has-style">
-                <div class="consultation siteorigin-panels-stretch panel-row-style panel-row-style-for-w653aa50b65d0b-2"
+                <div class="consultation  panel-row-style panel-row-style-for-w653aa50b65d0b-2"
                   data-stretch-type="full">
                   <div id="pgc-w653aa50b65d0b-2-0" class="panel-grid-cell">
                     <div id="panel-w653aa50b65d0b-2-0-0"
@@ -337,13 +370,9 @@
 
                           <div class="sow-image-container">
                             <img
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20174%2082'%3E%3C/svg%3E"
-                              width="174" height="82" data-lazy-sizes="(max-width: 174px) 100vw, 174px"
-                              alt="Health Profs" decoding="async" class="so-widget-image"
-                              data-lazy-src="img/certificate.jpeg" /><noscript><img
-                                src="img/certificate.jpeg" width="174"
-                                height="82" sizes="(max-width: 174px) 100vw, 174px" alt="Health Profs" decoding="async"
-                                class="so-widget-image" /></noscript>
+                              src="img/certificate.jpeg"
+                              width="174" height="82"
+                              alt="cert" decoding="async" class="so-widget-image"/>
                           </div>
 
                         </div>
