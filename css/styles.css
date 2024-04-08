@@ -590,13 +590,12 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
 }
 
 .site-header {
-  background-color: #fff
+  background-color: #24507f
 }
 
 .site-header,.nav-primary {
   z-index: 999;
   width: 100%;
-  position: fixed
 }
 
 .nav-primary {
@@ -646,7 +645,7 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
 }
 
 .site-description {
-  color: #797a7a;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -684,8 +683,8 @@ body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submi
   font-size: 18px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #24507f;
-  color: #fff;
+  background-color: #fff;
+  color: #24507f;
   font-family: 'Lato',sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
@@ -2487,6 +2486,8 @@ body .soliloquy-container .soliloquy-item::before {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  background-color: #24507f;
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
   .service {
@@ -2502,7 +2503,7 @@ body .soliloquy-container .soliloquy-item::before {
 .service-content h3 {
   margin-top: 0;
   font-size: 24px;
-  color: #333;
+  color: #fff;
 }
 
   /* Style for the popup */
