@@ -193,7 +193,7 @@ html {
 
 body {
   color: #6b6b6b;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Futura',sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 400;
@@ -257,7 +257,7 @@ cite {
 
 h1,h2,h3,h4,h5,h6 {
   color: #24507f;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Futura',sans-serif;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 12px;
@@ -1393,7 +1393,7 @@ li.comment {
   color: #24507f;
   background-color: #fff;
   padding: 13px 32px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   display: inline-block;
   letter-spacing: 2px;
@@ -1548,7 +1548,7 @@ li.comment {
 
 .open-gallery p {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 6.5px;
   margin: 0 0 28px
@@ -1721,7 +1721,7 @@ div.sow-accordion-panel-border {
 .single .entry-title {
   font-size: 47px;
   font-style: italic;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Futura',sans-serif;
   font-weight: 300
 }
 
